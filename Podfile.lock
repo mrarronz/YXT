@@ -1,0 +1,30 @@
+PODS:
+  - DGElasticPullToRefresh (1.1)
+  - Kingfisher (3.10.4)
+  - RazzleDazzle (0.1.5)
+  - SCLAlertView (0.7.0)
+  - SnapKit (3.0.2)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - DGElasticPullToRefresh
+  - Kingfisher (~> 3.0)
+  - RazzleDazzle
+  - SCLAlertView
+  - SnapKit (~> 3.0.2)
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  RazzleDazzle: 0b1b9fc8ceed04bfdd4b3e8182e98ef7edacd1d1
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 14e1166dd002d19749f159ea6813420a8245c81a
+
+COCOAPODS: 1.2.1
