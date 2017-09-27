@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E27F7AC31DE8367700A1EA52 /* HttpServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7AC21DE8367700A1EA52 /* HttpServiceWrapper.swift */; };
+		E27F7AC31DE8367700A1EA52 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7AC21DE8367700A1EA52 /* BaseRequest.swift */; };
 		E27F7AC51DE836F200A1EA52 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7AC41DE836F200A1EA52 /* ColorExtension.swift */; };
 		E27F7AC91DE837FC00A1EA52 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7AC81DE837FC00A1EA52 /* BaseViewController.swift */; };
 		E27F7ACB1DE8381500A1EA52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7ACA1DE8381500A1EA52 /* LoginViewController.swift */; };
@@ -25,6 +25,8 @@
 		E28D6B421DE1C64F00C64692 /* yxtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D6B411DE1C64F00C64692 /* yxtUITests.swift */; };
 		E28D6BAE1DE312A900C64692 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28D6BA11DE311B300C64692 /* Alamofire.framework */; };
 		E28D6BAF1DE312A900C64692 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E28D6BA11DE311B300C64692 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2DE8DA31F7B8FD60054EA94 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE8DA21F7B8FD60054EA94 /* StringExtension.swift */; };
+		E2DE8DA91F7B92370054EA94 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE8DA81F7B92370054EA94 /* Service.swift */; };
 		ECEFFA794415223B547542AE /* Pods_yxt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30110B2B990B3A71740A9A59 /* Pods_yxt.framework */; };
 /* End PBXBuildFile section */
 
@@ -119,7 +121,7 @@
 		1F1C4997894854B21CE59A08 /* Pods-yxt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yxt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yxt/Pods-yxt.debug.xcconfig"; sourceTree = "<group>"; };
 		30110B2B990B3A71740A9A59 /* Pods_yxt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yxt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14DD38DE0CCA12479994F64 /* Pods-yxt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yxt.release.xcconfig"; path = "Pods/Target Support Files/Pods-yxt/Pods-yxt.release.xcconfig"; sourceTree = "<group>"; };
-		E27F7AC21DE8367700A1EA52 /* HttpServiceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpServiceWrapper.swift; path = Service/HttpServiceWrapper.swift; sourceTree = "<group>"; };
+		E27F7AC21DE8367700A1EA52 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseRequest.swift; path = Service/BaseRequest.swift; sourceTree = "<group>"; };
 		E27F7AC41DE836F200A1EA52 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = Extension/ColorExtension.swift; sourceTree = "<group>"; };
 		E27F7AC81DE837FC00A1EA52 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controllers/BaseViewController.swift; sourceTree = "<group>"; };
 		E27F7ACA1DE8381500A1EA52 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,9 @@
 		E28D6B411DE1C64F00C64692 /* yxtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yxtUITests.swift; sourceTree = "<group>"; };
 		E28D6B431DE1C64F00C64692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E28D6B951DE311B300C64692 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E2DE8DA21F7B8FD60054EA94 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Extension/StringExtension.swift; sourceTree = "<group>"; };
+		E2DE8DA41F7B905F0054EA94 /* yxt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yxt-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2DE8DA81F7B92370054EA94 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Service/Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +196,8 @@
 		E27F7AB41DE835BE00A1EA52 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				E27F7AC21DE8367700A1EA52 /* HttpServiceWrapper.swift */,
+				E27F7AC21DE8367700A1EA52 /* BaseRequest.swift */,
+				E2DE8DA81F7B92370054EA94 /* Service.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				E27F7AC41DE836F200A1EA52 /* ColorExtension.swift */,
+				E2DE8DA21F7B8FD60054EA94 /* StringExtension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -285,6 +292,7 @@
 				E28D6B281DE1C64F00C64692 /* Assets.xcassets */,
 				E28D6B2A1DE1C64F00C64692 /* LaunchScreen.storyboard */,
 				E28D6B2D1DE1C64F00C64692 /* Info.plist */,
+				E2DE8DA41F7B905F0054EA94 /* yxt-Bridging-Header.h */,
 			);
 			path = yxt;
 			sourceTree = "<group>";
@@ -403,6 +411,7 @@
 					E28D6B1D1DE1C64F00C64692 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = KHM9HZ454C;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					E28D6B311DE1C64F00C64692 = {
@@ -583,10 +592,12 @@
 				E27F7AD31DEBC77900A1EA52 /* CustomButton.swift in Sources */,
 				E28D6B241DE1C64F00C64692 /* HomeViewController.swift in Sources */,
 				E28D6B221DE1C64F00C64692 /* AppDelegate.swift in Sources */,
-				E27F7AC31DE8367700A1EA52 /* HttpServiceWrapper.swift in Sources */,
+				E2DE8DA91F7B92370054EA94 /* Service.swift in Sources */,
+				E27F7AC31DE8367700A1EA52 /* BaseRequest.swift in Sources */,
 				E27F7ACF1DEBC54200A1EA52 /* LoginModel.swift in Sources */,
 				E27F7AD51DEBC7DA00A1EA52 /* NavigationController.swift in Sources */,
 				E27F7AC51DE836F200A1EA52 /* ColorExtension.swift in Sources */,
+				E2DE8DA31F7B8FD60054EA94 /* StringExtension.swift in Sources */,
 				E27F7ACD1DE8385900A1EA52 /* GlobalDefines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,12 +759,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KHM9HZ454C;
 				INFOPLIST_FILE = yxt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sundataonline.yxt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yxt/yxt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -764,12 +778,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KHM9HZ454C;
 				INFOPLIST_FILE = yxt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sundataonline.yxt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yxt/yxt-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
