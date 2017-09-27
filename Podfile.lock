@@ -1,7 +1,18 @@
 PODS:
   - DGElasticPullToRefresh (1.1)
-  - Kingfisher (3.10.4)
+  - IGListKit (3.1.1):
+    - IGListKit/Default (= 3.1.1)
+  - IGListKit/Default (3.1.1):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.1.1)
+  - Kingfisher (3.12.2)
   - RazzleDazzle (0.1.5)
+  - Realm (2.10.0):
+    - Realm/Headers (= 2.10.0)
+  - Realm/Headers (2.10.0)
+  - RealmSwift (2.10.0):
+    - Realm (= 2.10.0)
+  - REFrostedViewController (2.4.8)
   - SCLAlertView (0.7.0)
   - SnapKit (3.0.2)
   - SVProgressHUD (2.1.2)
@@ -9,8 +20,11 @@ PODS:
 
 DEPENDENCIES:
   - DGElasticPullToRefresh
+  - IGListKit (~> 3.0)
   - Kingfisher (~> 3.0)
   - RazzleDazzle
+  - RealmSwift
+  - REFrostedViewController (~> 2.4)
   - SCLAlertView
   - SnapKit (~> 3.0.2)
   - SVProgressHUD
@@ -18,13 +32,17 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
-  Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
+  IGListKit: cb97f405ae43e59fe1da74271e19427ec20d3c07
+  Kingfisher: 320626678acadfcf47008b3c6841cd882050737b
   RazzleDazzle: 0b1b9fc8ceed04bfdd4b3e8182e98ef7edacd1d1
+  Realm: 98b3a25643cf6b3e07d2b99fb43fe0eb9c801dec
+  RealmSwift: 34073ad3a31232bbaf7c0db898c037940284cba2
+  REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 14e1166dd002d19749f159ea6813420a8245c81a
+PODFILE CHECKSUM: b48886b8941b614271e78af9d7c73e6161fc7a26
 
 COCOAPODS: 1.2.1

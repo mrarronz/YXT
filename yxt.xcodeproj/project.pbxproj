@@ -17,7 +17,7 @@
 		E27F7AD31DEBC77900A1EA52 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7AD21DEBC77900A1EA52 /* CustomButton.swift */; };
 		E27F7AD51DEBC7DA00A1EA52 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F7AD41DEBC7DA00A1EA52 /* NavigationController.swift */; };
 		E28D6B221DE1C64F00C64692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D6B211DE1C64F00C64692 /* AppDelegate.swift */; };
-		E28D6B241DE1C64F00C64692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D6B231DE1C64F00C64692 /* ViewController.swift */; };
+		E28D6B241DE1C64F00C64692 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D6B231DE1C64F00C64692 /* HomeViewController.swift */; };
 		E28D6B271DE1C64F00C64692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28D6B251DE1C64F00C64692 /* Main.storyboard */; };
 		E28D6B291DE1C64F00C64692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28D6B281DE1C64F00C64692 /* Assets.xcassets */; };
 		E28D6B2C1DE1C64F00C64692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28D6B2A1DE1C64F00C64692 /* LaunchScreen.storyboard */; };
@@ -130,7 +130,7 @@
 		E27F7AD41DEBC7DA00A1EA52 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Controllers/NavigationController.swift; sourceTree = "<group>"; };
 		E28D6B1E1DE1C64F00C64692 /* yxt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yxt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28D6B211DE1C64F00C64692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E28D6B231DE1C64F00C64692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E28D6B231DE1C64F00C64692 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E28D6B261DE1C64F00C64692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E28D6B281DE1C64F00C64692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28D6B2B1DE1C64F00C64692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 				E27F7AC01DE8362F00A1EA52 /* Views */,
 				E27F7AC11DE8363700A1EA52 /* Controllers */,
 				E28D6B211DE1C64F00C64692 /* AppDelegate.swift */,
-				E28D6B231DE1C64F00C64692 /* ViewController.swift */,
+				E28D6B231DE1C64F00C64692 /* HomeViewController.swift */,
 				E28D6B251DE1C64F00C64692 /* Main.storyboard */,
 				E28D6B281DE1C64F00C64692 /* Assets.xcassets */,
 				E28D6B2A1DE1C64F00C64692 /* LaunchScreen.storyboard */,
@@ -581,7 +581,7 @@
 				E27F7ACB1DE8381500A1EA52 /* LoginViewController.swift in Sources */,
 				E27F7AC91DE837FC00A1EA52 /* BaseViewController.swift in Sources */,
 				E27F7AD31DEBC77900A1EA52 /* CustomButton.swift in Sources */,
-				E28D6B241DE1C64F00C64692 /* ViewController.swift in Sources */,
+				E28D6B241DE1C64F00C64692 /* HomeViewController.swift in Sources */,
 				E28D6B221DE1C64F00C64692 /* AppDelegate.swift in Sources */,
 				E27F7AC31DE8367700A1EA52 /* HttpServiceWrapper.swift in Sources */,
 				E27F7ACF1DEBC54200A1EA52 /* LoginModel.swift in Sources */,

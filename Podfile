@@ -10,5 +10,8 @@ target 'yxt' do
     pod 'SVProgressHUD'
     pod 'DGElasticPullToRefresh'
     pod 'RazzleDazzle'
+    pod 'REFrostedViewController', '~> 2.4'
+    pod 'RealmSwift'
+    pod 'IGListKit', '~> 3.0'
 end
 
