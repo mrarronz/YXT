@@ -14,24 +14,29 @@ fileprivate let baseURL = "http://www.xuetang365.com/"
 fileprivate let appKey = "wt3734wy636dhd3636sr8888t6"
 fileprivate let appSecret = "7717aab6e826788ded5d805a53596ffb"
 
-public typealias successBlock = ((_ response: JSON) -> Void)
-public typealias failureBlock = ((_ error: Error) -> Void)
+public typealias responseBlock = ((_ succeed: Bool, _ response: Any?, _ msg: String?) -> Void)
 
 class BaseRequest: NSObject {
 
     /// 发送请求的方法
     public class func sendRequest(url: String!,
                                   params: [String: String]?,
-                                  success: successBlock?,
-                                  failure: failureBlock?) {
+                                  completion: responseBlock?) {
         let requestURL = URL.init(string: baseURL + url)!
         Alamofire.request(requestURL, method: .post, parameters: params, encoding: JSONEncoding.default).responseJSON { (response) in
             switch response.result {
             case .success(let value):
-                let data = JSON(value)
-                success?(data)
+                let response = JSON(value)
+                let status = Int(response["status"].string!)
+                let msg = response["msg"].string
+                let data = response["data"].object
+                if status == 200 {
+                    completion?(true, data, msg)
+                } else {
+                    completion?(false, data, msg)
+                }
             case .failure(let error):
-                failure?(error)
+                completion?(false, nil, error.localizedDescription)
             }
         }
     }
