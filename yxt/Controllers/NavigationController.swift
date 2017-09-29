@@ -14,11 +14,23 @@ class NavigationController: UINavigationController {
         super.viewDidLoad()
         navigationBar.barTintColor = UIColor.colorWithHexString(hex: "#039be5")
         navigationBar.barStyle = .black
+        view.addGestureRecognizer(UIPanGestureRecognizer.init(target: self, action: #selector(panGestureRecognized(sender:))))
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func panGestureRecognized(sender: UIPanGestureRecognizer) {
+        view.endEditing(true)
+        self.frostedViewController.view.endEditing(true)
+        self.frostedViewController.panGestureRecognized(sender)
+    }
 
+    func showMenu() {
+        view.endEditing(true)
+        self.frostedViewController.view.endEditing(true)
+        self.frostedViewController.presentMenuViewController()
+    }
 }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import REFrostedViewController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        
+        let mainStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let navController = mainStoryboard.instantiateViewController(withIdentifier: "RootNavController")
+        let menuController = MenuViewController.init(style: .plain)
+        
+        let frostedController = REFrostedViewController.init(contentViewController: navController, menuViewController: menuController)
+        frostedController?.direction = .left
+        frostedController?.liveBlurBackgroundStyle = .light
+        frostedController?.liveBlur = true
+        frostedController?.menuViewSize = CGSize.init(width: (window?.bounds.width)! * 0.7, height: (window?.bounds.size.height)!)
+        window?.rootViewController = frostedController
+        window?.makeKeyAndVisible()
         
         return true
     }

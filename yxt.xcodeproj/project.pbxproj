@@ -25,6 +25,7 @@
 		E28D6B421DE1C64F00C64692 /* yxtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D6B411DE1C64F00C64692 /* yxtUITests.swift */; };
 		E28D6BAE1DE312A900C64692 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28D6BA11DE311B300C64692 /* Alamofire.framework */; };
 		E28D6BAF1DE312A900C64692 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E28D6BA11DE311B300C64692 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2CA73721F7CF50100DFB5CE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA73711F7CF50100DFB5CE /* MenuViewController.swift */; };
 		E2DE8DA31F7B8FD60054EA94 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE8DA21F7B8FD60054EA94 /* StringExtension.swift */; };
 		E2DE8DA91F7B92370054EA94 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE8DA81F7B92370054EA94 /* Service.swift */; };
 		ECEFFA794415223B547542AE /* Pods_yxt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30110B2B990B3A71740A9A59 /* Pods_yxt.framework */; };
@@ -144,6 +145,7 @@
 		E28D6B411DE1C64F00C64692 /* yxtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yxtUITests.swift; sourceTree = "<group>"; };
 		E28D6B431DE1C64F00C64692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E28D6B951DE311B300C64692 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E2CA73711F7CF50100DFB5CE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Controllers/MenuViewController.swift; sourceTree = "<group>"; };
 		E2DE8DA21F7B8FD60054EA94 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Extension/StringExtension.swift; sourceTree = "<group>"; };
 		E2DE8DA41F7B905F0054EA94 /* yxt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yxt-Bridging-Header.h"; sourceTree = "<group>"; };
 		E2DE8DA81F7B92370054EA94 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Service/Service.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				E27F7AC81DE837FC00A1EA52 /* BaseViewController.swift */,
 				E27F7ACA1DE8381500A1EA52 /* LoginViewController.swift */,
 				E27F7AD41DEBC7DA00A1EA52 /* NavigationController.swift */,
+				E2CA73711F7CF50100DFB5CE /* MenuViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -594,6 +597,7 @@
 				E28D6B221DE1C64F00C64692 /* AppDelegate.swift in Sources */,
 				E2DE8DA91F7B92370054EA94 /* Service.swift in Sources */,
 				E27F7AC31DE8367700A1EA52 /* BaseRequest.swift in Sources */,
+				E2CA73721F7CF50100DFB5CE /* MenuViewController.swift in Sources */,
 				E27F7ACF1DEBC54200A1EA52 /* LoginModel.swift in Sources */,
 				E27F7AD51DEBC7DA00A1EA52 /* NavigationController.swift in Sources */,
 				E27F7AC51DE836F200A1EA52 /* ColorExtension.swift in Sources */,
